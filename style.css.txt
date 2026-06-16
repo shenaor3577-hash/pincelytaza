@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f7f4ef;
+    color:#3e2c23;
+}
+
+header{
+    text-align:center;
+    padding:40px;
+}
+
+.logo{
+    max-width:250px;
+}
+
+section{
+    padding:40px;
+    max-width:1200px;
+    margin:auto;
+}
+
+img{
+    width:100%;
+    max-width:500px;
+    display:block;
+    margin:20px auto;
+    border-radius:12px;
+}
+
+h2{
+    color:#5b3a29;
+}

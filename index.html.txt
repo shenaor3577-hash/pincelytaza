@@ -1,0 +1,100 @@
+!DOCTYPE html
+html lang=es
+head
+meta charset=UTF-8
+meta name=viewport content=width=device-width, initial-scale=1.0
+titlePincel y Tazatitle
+link rel=stylesheet href=style.css
+head
+
+body
+
+header
+    img src=imageslogo.png alt=Pincel y Taza class=logo
+    h1Pincel y Tazah1
+    pArte que inspira, café que acompañap
+header
+
+section
+    h2Bienvenidosh2
+    p
+        Un espacio cultural donde convergen el arte, la creatividad,
+        la formación artística y el café de especialidad.
+    p
+section
+
+section
+    h2Conoce Nuestro Espacioh2
+
+    video controls width=100%
+        source src=videorecorrido.mp4 type=videomp4
+    video
+section
+
+section
+    h2Galería de Obrash2
+
+    img src=imagesbecerro.jpg
+    img src=imagesbarranqueros.jpg
+section
+
+section
+    h2Murales Personalizadosh2
+
+    img src=imagesmural-completo.jpg
+    img src=imagesmural-detalle.jpg
+
+    p
+        Diseñamos y ejecutamos murales artísticos para hogares,
+        negocios, hoteles, restaurantes y espacios culturales.
+    p
+section
+
+section
+    h2Talleres y Clasesh2
+
+    img src=imagestaller.jpg
+
+    p
+        Seminarios de pintura, talleres creativos y clases
+        personalizadas para todas las edades.
+    p
+section
+
+section
+    h2Artesaníash2
+
+    img src=imagescasa-aves.jpg
+section
+
+section
+    h2Café de Especialidadh2
+
+    img src=imagescafe.jpg
+
+    p
+        Disfruta una experiencia artística acompañada de
+        café de especialidad.
+    p
+section
+
+section
+    h2Visítanosh2
+
+    p
+        Carrera 7A # 8-38br
+        Quimbaya, Quindío
+    p
+
+    p
+        900 a.m. - 1200 p.m.br
+        200 p.m. - 600 p.m.
+    p
+
+    p
+        WhatsApp 3193917729
+    p
+section
+
+body
+html
