@@ -3,98 +3,222 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pincel y Taza</title>
-<link rel="stylesheet" href="style.css">
-</head>
 
+<title>Pincel y Taza | Arte, Murales y Café de Especialidad</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
 <body>
 
-<header>
-    <img src="images/logo.png" alt="Pincel y Taza" class="logo">
-    <h1>Pincel y Taza - Sitio Oficial</h1>
-    <p>Arte que inspira, café que acompaña</p>
+<nav class="navbar">
+
+    <div class="logo-text">Pincel y Taza</div>
+
+    <ul>
+        <li><a href="#historia">Nosotros</a></li>
+        <li><a href="#espacio">Espacio</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#murales">Murales</a></li>
+        <li><a href="#talleres">Talleres</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+</nav>
+
+<header class="hero">
+
+    <div class="hero-content">
+
+        <img src="images/logo.jpg" alt="Pincel y Taza" class="logo">
+
+        <h1>Pincel y Taza</h1>
+
+        <p>
+            Arte que inspira, café que acompaña
+        </p>
+
+        <a href="https://wa.me/573193917729" target="_blank" class="btn">
+            Contáctanos
+        </a>
+
+    </div>
+
 </header>
 
-<section>
-    <h2>Bienvenidos</h2>
+<section id="historia" class="section">
+
+    <h2>Nuestra Historia</h2>
+
     <p>
-        Un espacio cultural donde convergen el arte, la creatividad,
-        la formación artística y el café de especialidad.
+        Pincel y Taza es un espacio cultural ubicado en Quimbaya, Quindío,
+        donde convergen el arte, la creatividad, la formación artística
+        y el café de especialidad.
     </p>
+
+    <p>
+        La artista Bolivia Ramírez comparte aquí sus obras, murales,
+        artesanías y experiencias creativas en un ambiente cálido y acogedor.
+    </p>
+
 </section>
 
-<section>
+<section id="espacio" class="section fondo">
+
     <h2>Conoce Nuestro Espacio</h2>
 
     <video controls width="100%">
         <source src="video/recorrido.mp4" type="video/mp4">
     </video>
+
 </section>
 
-<section>
+<section id="galeria" class="section">
+
     <h2>Galería de Obras</h2>
 
-    <img src="images/becerro.jpg">
-    <img src="images/barranqueros.jpg">
+    <div class="grid">
+
+        <div class="card">
+            <img src="images/becerro.jpg" alt="Obra Becerro">
+        </div>
+
+        <div class="card">
+            <img src="images/barranqueros.jpg" alt="Barranqueros">
+        </div>
+
+        <div class="card">
+            <img src="images/tote bag.jpg" alt="Tote Bag Pintada">
+        </div>
+
+    </div>
+
 </section>
 
-<section>
-    <h2>Murales Personalizados</h2>
+<section id="murales" class="section fondo">
 
-    <img src="images/mural-completo.jpg">
-    <img src="images/mural-detalle.jpg">
+    <h2>Murales Personalizados</h2>
 
     <p>
         Diseñamos y ejecutamos murales artísticos para hogares,
-        negocios, hoteles, restaurantes y espacios culturales.
+        cafeterías, hoteles, restaurantes y espacios culturales.
     </p>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="images/mural-completo.jpg" alt="Mural Completo">
+        </div>
+
+        <div class="card">
+            <img src="images/mural-detalle.jpg" alt="Detalle Mural">
+        </div>
+
+    </div>
+
 </section>
 
-<section>
-    <h2>Talleres y Clases</h2>
+<section id="talleres" class="section">
 
-    <img src="images/taller.jpg">
+    <h2>Seminarios y Clases de Pintura</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="images/taller.jpg" alt="Taller de Pintura">
+        </div>
+
+    </div>
 
     <p>
-        Seminarios de pintura, talleres creativos y clases
-        personalizadas para todas las edades.
+        Ofrecemos seminarios de pintura, talleres creativos
+        y clases personalizadas para niños, jóvenes y adultos.
     </p>
+
 </section>
 
-<section>
+<section class="section fondo">
+
     <h2>Artesanías</h2>
 
-    <img src="images/casa-aves.jpg">
+    <div class="grid">
+
+        <div class="card">
+            <img src="images/casa-aves.jpg" alt="Casa Decorativa">
+        </div>
+
+    </div>
+
 </section>
 
-<section>
+<section class="section">
+
     <h2>Café de Especialidad</h2>
 
-    <img src="images/cafe.jpg">
+    <div class="grid">
+
+        <div class="card">
+            <img src="images/cafe.jpg" alt="Café de Especialidad">
+        </div>
+
+    </div>
 
     <p>
-        Disfruta una experiencia artística acompañada de
-        café de especialidad.
+        Disfruta una experiencia artística acompañada
+        por café de especialidad cuidadosamente preparado.
     </p>
+
 </section>
 
-<section>
+<section id="contacto" class="section contacto">
+
     <h2>Visítanos</h2>
 
     <p>
-        Carrera 7A # 8-38<br>
+        📍 Carrera 7A # 8-38<br>
         Quimbaya, Quindío
     </p>
 
     <p>
-        9:00 a.m. - 12:00 p.m.<br>
-        2:00 p.m. - 6:00 p.m.
+        🕘 9:00 a.m. – 12:00 p.m.<br>
+        🕑 2:00 p.m. – 6:00 p.m.
     </p>
 
     <p>
-        WhatsApp: 3193917729
+        📱 WhatsApp: 319 391 7729
     </p>
+
+    <p>
+        📷 Instagram:
+        <a href="https://www.instagram.com/pincelytaza" target="_blank">
+            @pincelytaza
+        </a>
+    </p>
+
+    <p>
+        📘 Facebook:
+        <a href="https://www.facebook.com/profile.php?id=61589816048803" target="_blank">
+            Pincel y Taza
+        </a>
+    </p>
+
 </section>
+
+<footer>
+
+    <p>
+        © 2025 Pincel y Taza | Quimbaya, Quindío
+    </p>
+
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/573193917729"
+target="_blank">
+💬
+</a>
 
 </body>
 </html>
