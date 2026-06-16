@@ -24,6 +24,11 @@ z-index:1000;
 box-shadow:0 2px 10px rgba(0,0,0,.08);
 }
 
+.logo-text{
+font-size:18px;
+font-weight:500;
+}
+
 .navbar ul{
 display:flex;
 list-style:none;
@@ -59,7 +64,7 @@ width:420px;
 max-width:90%;
 background:white;
 padding:10px 20px;
-border-radius:60px;
+border-radius:25px;
 margin-bottom:25px;
 box-shadow:0 5px 15px rgba(0,0,0,.15);
 }
@@ -84,9 +89,7 @@ border-radius:30px;
 transition:.3s;
 }
 
-.btn:hover{
-background:#4e3424;
-}
+.btn:hover
 
 .section{
 padding:80px 10%;
@@ -101,7 +104,7 @@ text-align:center;
 
 .section p{
 max-width:900px;
-margin:0 auto 20px;
+margin:20px auto;
 text-align:center;
 }
 
@@ -124,13 +127,28 @@ box-shadow:0 4px 15px rgba(0,0,0,.08);
 
 .card img{
 width:100%;
-height:auto;
+height:350px;
+object-fit:cover;
 display:block;
 transition:.4s;
 }
 
 .card img:hover{
 transform:scale(1.03);
+}
+
+.imagen-destacada{
+text-align:center;
+margin-top:30px;
+}
+
+.imagen-destacada img{
+width:auto;
+max-width:100%;
+height:auto;
+max-height:650px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.15);
 }
 
 video{
@@ -191,7 +209,7 @@ font-size:18px;
 }
 
 .logo{
-width:180px;
+width:250px;
 }
 
 .section{
